@@ -5896,7 +5896,7 @@ function HatReanimator.Start()
 				end
 			end
 		end
-		pcall(function() Player.ReplicationFocus = character end)
+		--pcall(function() Player.ReplicationFocus = character end)
 		if hatcols then
 			HatReanimator.Status.HatCollide = "Waiting for Permadeath."
 		else
@@ -6139,7 +6139,7 @@ function HatReanimator.Start()
 				NumHats = #CharHats
 			end
 		end
-		pcall(function() Player.ReplicationFocus = nil end)
+		--pcall(function() Player.ReplicationFocus = nil end)
 		CurrentCharacter = character
 	end
 
